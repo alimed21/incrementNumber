@@ -5,7 +5,7 @@
 from readFileData import getLastNumber
 
 def main():
-    membreClass = input("Enter your membre class:")
+    membreClass = raw_input("Enter your membre class:")
     getLastNumber(membreClass)
 
 if __name__ == "__main__":
