@@ -28,7 +28,7 @@ def increment(s, m):
             myFile.write("\n" + out)
             print("Done! the membre code is : "+out)
 
-    elif (m == "COM"):
+    else:
         with open('COM.txt', 'a+') as myFile:
             myFile.write("\n" + out)
             print("Done! the membre code is : "+out)
